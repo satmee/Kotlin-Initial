@@ -1,0 +1,22 @@
+fun main(args : Array<String>) {
+    val big = 42
+    val small = 74
+
+    /** If condition **/
+    var maxValue: Int = if (big > small)
+        big
+    else
+        small
+    println(maxValue)
+
+    /** When condition or Switch case which we find in C, C++, Java **/
+    val school : Int = 75 /* Initializing a value already */
+    when (school) {
+        42 -> println("The number is 4!") /* case 1: to check if it is 42 !*/
+        in 70..80 -> println("Lies within the range 70-80!") /* To check within the range of the number */
+
+        else -> {
+            println("I don't know!") /* Default condition*/
+        }
+    }
+}
