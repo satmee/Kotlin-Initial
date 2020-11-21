@@ -1,3 +1,4 @@
+// By default classes in Kotlin are "public" and "final", so t access classes we have keyword known as "open"
 fun main(args:Array<String>){
     var candies = Candies()
     candies.amount = 4
@@ -21,7 +22,7 @@ fun main(args:Array<String>){
     sweets.flavor ="Default"
     sweets.amount = 0
 }
-open class sweets{ // This is the Parent class
+open class sweets{ // This is the Parent class, also usage of "open"
     var amount:Int = 0
     var flavor:String =""
 }
