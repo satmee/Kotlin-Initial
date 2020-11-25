@@ -1,3 +1,4 @@
+//Abstarct classes are ALWAYS Open by nature
 fun main(args:Array<String>){
     var son = Son()
     println("The suranem is : ${son.surname}")
